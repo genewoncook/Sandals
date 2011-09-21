@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79CA68D8142A52E000EA837D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CA68D7142A52E000EA837D /* Cocoa.framework */; };
+		79CA68DA142A52E000EA837D /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CA68D9142A52E000EA837D /* MacRuby.framework */; };
+		79CA68E1142A52E000EA837D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79CA68DF142A52E000EA837D /* InfoPlist.strings */; };
+		79CA68E3142A52E000EA837D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA68E2142A52E000EA837D /* main.m */; };
+		79CA68E8142A52E000EA837D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CA68E6142A52E000EA837D /* MainMenu.xib */; };
+		79CA68EB142A52E000EA837D /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 79CA68EA142A52E000EA837D /* rb_main.rb */; };
+		79CA68ED142A52E000EA837D /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 79CA68EC142A52E000EA837D /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79CA68D3142A52E000EA837D /* Sandals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CA68D7142A52E000EA837D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		79CA68D9142A52E000EA837D /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		79CA68DE142A52E000EA837D /* Sandals-Info.plist */ = {isa = PBXFileReference; path = "Sandals-Info.plist"; sourceTree = "<group>"; };
+		79CA68E0142A52E000EA837D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79CA68E2142A52E000EA837D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79CA68E4142A52E000EA837D /* Sandals-Prefix.pch */ = {isa = PBXFileReference; path = "Sandals-Prefix.pch"; sourceTree = "<group>"; };
+		79CA68E7142A52E000EA837D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		79CA68EA142A52E000EA837D /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		79CA68EC142A52E000EA837D /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79CA68D0142A52E000EA837D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CA68D8142A52E000EA837D /* Cocoa.framework in Frameworks */,
+				79CA68DA142A52E000EA837D /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79CA68C8142A52E000EA837D = {
+			isa = PBXGroup;
+			children = (
+				79CA68DC142A52E000EA837D /* Sandals */,
+				79CA68D6142A52E000EA837D /* Frameworks */,
+				79CA68D4142A52E000EA837D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79CA68D4142A52E000EA837D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79CA68D3142A52E000EA837D /* Sandals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79CA68D6142A52E000EA837D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79CA68D7142A52E000EA837D /* Cocoa.framework */,
+				79CA68D9142A52E000EA837D /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79CA68DC142A52E000EA837D /* Sandals */ = {
+			isa = PBXGroup;
+			children = (
+				79CA68EC142A52E000EA837D /* AppDelegate.rb */,
+				79CA68E5142A52E000EA837D /* Resources */,
+				79CA68E9142A52E000EA837D /* Other Sources */,
+				79CA68DD142A52E000EA837D /* Supporting Files */,
+			);
+			path = Sandals;
+			sourceTree = "<group>";
+		};
+		79CA68DD142A52E000EA837D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79CA68DE142A52E000EA837D /* Sandals-Info.plist */,
+				79CA68DF142A52E000EA837D /* InfoPlist.strings */,
+				79CA68E2142A52E000EA837D /* main.m */,
+				79CA68E4142A52E000EA837D /* Sandals-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79CA68E5142A52E000EA837D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79CA68E6142A52E000EA837D /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		79CA68E9142A52E000EA837D /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				79CA68EA142A52E000EA837D /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		79CA68DB142A52E000EA837D /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 79CA68F3142A52E000EA837D /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		79CA68D2142A52E000EA837D /* Sandals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CA68F0142A52E000EA837D /* Build configuration list for PBXNativeTarget "Sandals" */;
+			buildPhases = (
+				79CA68CF142A52E000EA837D /* Sources */,
+				79CA68D0142A52E000EA837D /* Frameworks */,
+				79CA68D1142A52E000EA837D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sandals;
+			productName = Sandals;
+			productReference = 79CA68D3142A52E000EA837D /* Sandals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79CA68CA142A52E000EA837D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 79CA68CD142A52E000EA837D /* Build configuration list for PBXProject "Sandals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79CA68C8142A52E000EA837D;
+			productRefGroup = 79CA68D4142A52E000EA837D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79CA68D2142A52E000EA837D /* Sandals */,
+				79CA68DB142A52E000EA837D /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79CA68D1142A52E000EA837D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CA68E1142A52E000EA837D /* InfoPlist.strings in Resources */,
+				79CA68E8142A52E000EA837D /* MainMenu.xib in Resources */,
+				79CA68EB142A52E000EA837D /* rb_main.rb in Resources */,
+				79CA68ED142A52E000EA837D /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79CA68CF142A52E000EA837D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CA68E3142A52E000EA837D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79CA68DF142A52E000EA837D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79CA68E0142A52E000EA837D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79CA68E6142A52E000EA837D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79CA68E7142A52E000EA837D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79CA68EE142A52E000EA837D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79CA68EF142A52E000EA837D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79CA68F1142A52E000EA837D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sandals/Sandals-Prefix.pch";
+				INFOPLIST_FILE = "Sandals/Sandals-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79CA68F2142A52E000EA837D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sandals/Sandals-Prefix.pch";
+				INFOPLIST_FILE = "Sandals/Sandals-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		79CA68F4142A52E000EA837D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		79CA68F5142A52E000EA837D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79CA68CD142A52E000EA837D /* Build configuration list for PBXProject "Sandals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CA68EE142A52E000EA837D /* Debug */,
+				79CA68EF142A52E000EA837D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CA68F0142A52E000EA837D /* Build configuration list for PBXNativeTarget "Sandals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CA68F1142A52E000EA837D /* Debug */,
+				79CA68F2142A52E000EA837D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79CA68F3142A52E000EA837D /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CA68F4142A52E000EA837D /* Debug */,
+				79CA68F5142A52E000EA837D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79CA68CA142A52E000EA837D /* Project object */;
+}
